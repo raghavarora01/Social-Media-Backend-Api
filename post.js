@@ -1,4 +1,4 @@
-import database from "../database.js";
+import database from "./database.js";
 import jwt from "jsonwebtoken";
 const jwt_secretkey = process.env.SECURITY_KEY || "default_secret";
 
