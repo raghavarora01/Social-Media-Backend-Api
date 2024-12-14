@@ -1,6 +1,6 @@
 import express from "express";
-import authRoutes from "./routes/auth.js";
-import postRoutes from "./routes/post.js";
+import authRoutes from "./authRoutes.js";
+import postRoutes from "./postRoutes.js";
 const app = express();
 const PORT = 9000;
 app.use(express.json());
